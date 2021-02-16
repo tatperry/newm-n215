@@ -1,0 +1,41 @@
+.bookingForm {
+  justify-content: center;
+  padding-top: -100px;
+  .booking {
+    font-size: 60px;
+    //   background-color: aqua;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    font-weight: 90;
+
+    .booking-border {
+      position: absolute;
+      width: 70%;
+    }
+  }
+
+  .Container-booking {
+    position: relative;
+
+    .book {
+      position: absolute;
+      align-items: center;
+    }
+    .booking-field {
+      font-size: 15px;
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+    }
+  }
+  .info {
+    width: 400px;
+
+    p {
+      // text-align: left;
+      font-size: 18px;
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+      font-weight: 120;
+    }
+  }
+}
