@@ -1,0 +1,83 @@
+.booking-form {
+  width: 1280px;
+  margin: 0 auto;
+  height: 890px;
+}
+.booking-form .booking {
+  height: 60px;
+  width: 370px;
+}
+.booking-form .booking h1 {
+  font-size: 50px;
+  font-family: "proxi-nova";
+  font-weight: lighter;
+}
+.booking-form .name {
+  height: 58px;
+  width: 344px;
+  border: solid 1px #79addc;
+  margin-top: 150px;
+}
+.booking-form .name p {
+  font-size: 18px;
+  font-weight: lighter;
+  font-family: "proxi-nova";
+  margin: 0;
+  margin-top: 15px;
+  margin-left: 10px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+.booking-form .email {
+  flex-direction: row;
+  height: 58px;
+  width: 453px;
+  border: solid 1px #79addc;
+  margin-top: 150px;
+}
+.booking-form .email p {
+  display: flex;
+  font-size: 18px;
+  font-weight: lighter;
+  font-family: "proxi-nova";
+  justify-content: left;
+  align-items: center;
+  margin: 0;
+  padding-top: 15px;
+  padding-left: 10px;
+}
+.booking-form .country {
+  height: 58px;
+  width: 344px;
+  border: solid 1px #79addc;
+  margin-top: 250px;
+}
+.booking-form .country p {
+  font-size: 18px;
+  font-weight: lighter;
+  font-family: "proxi-nova";
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin: 0;
+  margin-top: 15px;
+  margin-left: 10px;
+}
+.booking-form .hotel {
+  height: 58px;
+  width: 453px;
+  border: solid 1px #79addc;
+  margin-top: 250px;
+}
+.booking-form .hotel p {
+  font-size: 18px;
+  font-weight: lighter;
+  font-family: "proxi-nova";
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin: 0;
+  margin-top: 15px;
+  margin-left: 10px;
+}
