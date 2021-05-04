@@ -1,0 +1,112 @@
+.gallery {
+  max-width: 980px;
+  min-height: 378px;
+  margin: 0 auto 0 auto;
+}
+
+.gallery span {
+  font-size: 25px;
+  font-weight: lighter;
+  font-family: GillSansReg;
+  text-transform: uppercase;
+  border-bottom: solid 2px #000;
+  padding-right: 30px;
+  top: 30px;
+  padding-bottom: 20px;
+}
+.gallery-images {
+  margin-top: 50px;
+}
+.gallery-images div {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.rowOne {
+  display: flex;
+  justify-content: space-between;
+
+  .imageOne {
+    width: 489px;
+    height: 187px;
+    background-image: linear-gradient(
+        rgba(255, 209, 64, 0.7),
+        rgba(255, 209, 64, 0.7)
+      ),
+      url(../asset/gallery/1.png);
+  }
+
+  .imageTwo {
+    width: 187px;
+    height: 187px;
+    background-image: linear-gradient(
+        rgba(238, 67, 103, 0.7),
+        rgba(238, 67, 103, 0.7)
+      ),
+      url(../asset/gallery/2.jpeg);
+  }
+
+  .imageThree {
+    width: 265px;
+    height: 187px;
+    background-image: linear-gradient(
+        rgba(8, 173, 105, 0.7),
+        rgba(8, 173, 105, 0.7)
+      ),
+      url(../asset/gallery/3.jpg);
+  }
+}
+
+.rowTwo {
+  display: flex;
+  justify-content: space-between;
+
+  .imageFour {
+    width: 603px;
+    height: 306px;
+    background-image: linear-gradient(
+        rgba(84, 13, 110, 0.7),
+        rgba(84, 13, 110, 0.7)
+      ),
+      url(../asset/gallery/4.jpg);
+  }
+
+  .imageFive {
+    width: 355px;
+    height: 306px;
+    background-image: linear-gradient(
+        rgba(59, 206, 171, 0.7),
+        rgba(59, 206, 171, 0.7)
+      ),
+      url(../asset/gallery/5.png);
+  }
+}
+
+@media (max-width: 944px) {
+  .rowOne {
+    display: block;
+  }
+  .rowOne div {
+    margin: 0 auto 20px auto;
+    width: 600px;
+  }
+  .rowTwo {
+    display: block;
+  }
+  .rowTwo div {
+    margin: 0 auto 20px auto;
+  }
+}
+
+.gallery-items {
+  font-size: 30px;
+  font-weight: bold;
+  font-family: GillSansReg;
+  display: flex;
+  justify-content: space-between;
+
+  a {
+    margin: 0 auto;
+    color: #ee4367;
+  }
+}

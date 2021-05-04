@@ -1,0 +1,44 @@
+.hero-gal4 {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(84, 13, 110, 0.7),
+      rgba(84, 13, 110, 0.7)
+    ),
+    url(../asset/gallery/4.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 980px;
+  height: 378px;
+  margin: 80px auto 0 auto;
+  position: relative;
+
+  .hero-title {
+    position: absolute;
+    bottom: 0;
+    left: 80px;
+  }
+
+  .title-4 {
+    font-size: 230px;
+    line-height: 0;
+    margin-right: 70px;
+    font-family: GillSansReg;
+    color: #540d6e;
+    text-shadow: 2px 2px #000;
+  }
+
+  .title-open {
+    font-size: 100px;
+    line-height: 0;
+    font-family: GillSansReg;
+    color: #540d6e;
+    text-shadow: 2px 2px #000;
+  }
+}
+
+.gala-text {
+  max-width: 980px;
+  min-height: 200px;
+  margin: 0 auto;
+}

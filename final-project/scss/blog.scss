@@ -1,0 +1,108 @@
+.gallery-blog {
+  max-width: 980px;
+  min-height: 378px;
+  margin: 0 auto 0 auto;
+}
+
+.gallery-blog span {
+  font-size: 25px;
+  font-weight: bold;
+  font-family: GillSansReg;
+  text-transform: uppercase;
+  border-bottom: solid 2px #000;
+  padding-right: 30px;
+  padding-bottom: 20px;
+}
+.gallery-images-blog {
+  margin-top: 50px;
+}
+.gallery-images-blog div {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.rowOne-blog {
+  display: flex;
+  margin-top: 50px;
+  justify-content: space-between;
+  flex-direction: column;
+
+  .imageOne-blog {
+    max-width: 980px;
+    height: 376px;
+    background-image: url(../asset/blog.jpg);
+
+    .imageTwo-blog {
+      width: 380px;
+      height: 140px;
+      background-image: linear-gradient(
+          rgba(238, 67, 103, 0.7),
+          rgba(238, 67, 103, 0.7)
+        ),
+        url(../asset/blog.jpg);
+    }
+
+    .imageThree-blog {
+      width: 380px;
+      height: 140px;
+      background-image: linear-gradient(
+          rgba(8, 173, 105, 0.7),
+          rgba(8, 173, 105, 0.7)
+        ),
+        url(../images/blog.jpg);
+    }
+  }
+}
+.rowTwo-blog {
+  display: flex;
+  justify-content: space-between;
+
+  .imageFour-blog {
+    width: 380px;
+    height: 140px;
+    background-image: linear-gradient(
+        rgba(84, 13, 110, 0.7),
+        rgba(84, 13, 110, 0.7)
+      ),
+      url(../asset/blog.jpg);
+  }
+
+  .imageFive-blog {
+    width: 380px;
+    height: 140px;
+    background-image: linear-gradient(
+        rgba(59, 206, 171, 0.7),
+        rgba(59, 206, 171, 0.7)
+      ),
+      url(../asset/blog.jpg);
+  }
+}
+
+.gallery-items-blog {
+  font-size: 30px;
+  font-weight: bold;
+  font-family: GillSansReg;
+  display: flex;
+  justify-content: space-between;
+
+  a {
+    margin: 0 auto;
+    color: #ee4367;
+  }
+}
+
+@media (max-width: 944px) {
+  .rowOne-blog {
+    display: block;
+  }
+  .rowOne-blog div {
+    margin: 0 auto 20px auto;
+    width: 600px;
+  }
+  .rowTwo-blog {
+    display: block;
+  }
+  .rowTwo-blog div {
+    margin: 0 auto 20px auto;
+  }
+}
